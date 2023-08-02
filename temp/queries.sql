@@ -1,3 +1,5 @@
+-- CREATE DATABASE dbecommerce;
+
 /* 1 */ select u.username, u.email  from users u;
 /* 2 */ select p.name, p.description, p.price  from products p;
 /* 3 */ select o.total  from orders o where o.id = 1;
