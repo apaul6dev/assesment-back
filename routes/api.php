@@ -15,7 +15,9 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-
+/**
+ * routes products configuration 
+ */
 Route::get('/v1/products',[App\Http\Controllers\ProductController::class, 'index']);
 Route::post('/v1/products/save',   [App\Http\Controllers\ProductController::class, 'store']);
 Route::put('/v1/products/update/{id}',[App\Http\Controllers\ProductController::class, 'update']);

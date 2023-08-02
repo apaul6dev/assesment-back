@@ -15,6 +15,10 @@ return [
     |
     */
 
+    /**
+     * Cors configuration
+     */
+
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
 
     'allowed_methods' => ['*'],
